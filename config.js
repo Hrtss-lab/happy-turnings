@@ -7,7 +7,7 @@
 
 const CONFIG = {
   // Shown in the welcome + card headings
-  name: "Someone",
+  name: "Nimo",
 
   // card.html — the message under the heading
   cardMessage: "Wishing you a day as beautiful as your heart, and a year that treats you gently.",
