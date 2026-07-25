@@ -11,7 +11,7 @@
   --border:rgba(255,255,255,.18);
   --glow:rgba(79,142,247,.45);
 
-  --font-display:'Cormorant Garamond', serif;
+  --font-display:-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-body:-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
