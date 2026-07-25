@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="wishes">
+
+<div id="loader">
+  <div class="loader-line"></div>
+  <p class="loader-text">Loading</p>
+</div>
+
+<nav class="dots" id="navDots" aria-hidden="true"></nav>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<main>
+  <section class="scene scene-tall" id="wishes">
+    <div class="stars stars-dim"></div>
+    <h2 class="serif section-title fade-in">Today is about you</h2>
+    <div class="cards" id="wishGrid"></div>
+    <a class="btn nav-link" href="gift.html" style="margin-top:50px;"><span>Continue</span><i class="arrow"></i></a>
+  </section>
+</main>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
