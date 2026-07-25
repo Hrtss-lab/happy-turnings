@@ -33,7 +33,7 @@ body.page-leaving{ opacity:0; transition:opacity .45s ease; }
 
 main{ display:block; }
 
-h1,h2{ font-family:var(--font-display); font-weight:600; margin:0; }
+h1,h2{ font-family:var(--font-display); font-weight:700; margin:0; }
 .serif{ font-family:var(--font-display); }
 
 p{ margin:0; }
