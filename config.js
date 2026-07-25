@@ -44,7 +44,7 @@ const CONFIG = {
   finalMessage: "May this year surprise you in the most beautiful, unhurried ways.",
 
   // ending.html — the very last line, no button after this
-  closingLine: "Whatever this year brings, I hope you meet it feeling loved.",
+  closingLine: "Just don't you forget how much your life continues to matter.",
 
   // Number of candles on the cake (final.html)
   candles: 5
