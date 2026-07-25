@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body data-page="gift">
@@ -24,7 +25,6 @@
   <section class="scene" id="gift">
     <div class="stars stars-dim"></div>
     <h2 class="serif section-title fade-in">A little something</h2>
-    <p class="lede fade-in">Tap the box</p>
 
     <div class="gift-box" id="giftBox" role="button" tabindex="0" aria-label="Open gift">
       <div class="gift-glow"></div>
@@ -53,7 +53,9 @@
       <div class="gift-burst" id="giftBurst"></div>
     </div>
     <p class="gift-reveal-text" id="giftMessage"></p>
-    <a class="btn nav-link continue-link" id="giftContinue" href="final.html"><span>Continue</span><i class="arrow"></i></a>
+    <a class="icon-btn nav-link hidden-until-ready" id="giftContinue" href="final.html" aria-label="Continue">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="var(--sky)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
   </section>
 </main>
 
