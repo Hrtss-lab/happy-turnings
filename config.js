@@ -10,7 +10,7 @@ const CONFIG = {
   name: "Nimo",
 
   // card.html — the message under the heading
-  cardMessage: "Wishing you a day as beautiful as your heart, and a year that treats you gently.",
+  cardMessage: "Another year of moments only you could have lived.",
 
   // wishes.html — four wish cards. label = title shown on the card face.
   // detail = the message revealed when it's tapped.
